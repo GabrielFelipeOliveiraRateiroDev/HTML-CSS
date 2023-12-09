@@ -1,0 +1,35 @@
+html, body {
+
+    font-family: Arial;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.etreiaHoje {
+
+    color: darkred;
+
+}
+
+.estriaAmanha {
+
+    color: darkblue;
+
+}
+
+h2 a {
+
+    color: seagreen;
+
+}
+
+p {
+
+    font-size: 20px;
+
+}
