@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso HTML e CSS | Caminhos (Path)</title>
+
+        <style>
+
+            html,body {
+
+                width: 100%;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-direction: column;
+                flex: 1 1 auto;
+                background-color: black;
+                color: white;
+                gap: 20px;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+
+            }
+
+            hr {
+
+                background-color: blueviolet;
+                width: 80%;
+                height: 1em;
+                border-radius: 20px;
+                border: 0;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <h1>Absoluto</h1>
+        <hr>
+        <a href="https://www.origamid.com/cursos/">Origamid Cursos</a>
+        <p>Usado para arquivos externos ao nosso site.</p>
+
+        <h1>Relativo</h1>
+        <hr>
+        <a href="/produtos/bicicletas.html">Bicicletas</a>
+        <p>Usado para arquivos internos do site.</p>
+
+        <hr>
+        <br>
+        <br>
+        <br>
+
+        <h1>Bicicletas & Carros</h1>
+        <hr>
+        <a href="Caminhos/produtos/bicicletas.html">Bicicletas</a>
+        <a href="Caminhos/produtos/carros.html">Carros</a>
+
+    </body>
+
+</html>
