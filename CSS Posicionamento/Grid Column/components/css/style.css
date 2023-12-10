@@ -1,0 +1,191 @@
+.grid {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr; 
+    /* align-items: center; */
+    /* place-items: center center; */
+
+}
+
+.foto {
+
+    grid-column: span 2;
+
+}
+
+/* ~ align-items justify-items place-items align-self justify-self place-self */
+
+.grid2 {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr; 
+    /* align-items: center; */
+    /* place-items: center center; */
+    /* justify-items: end; */
+
+}
+
+.titulo2 {
+
+    grid-column: 2;
+    text-align: right;
+
+}
+
+.preco2 {
+
+    place-self: start end;
+
+}
+
+.comprar2 {
+
+    align-self: start;
+    text-align: center;
+
+}
+
+.descricao2 {
+
+    text-align: right;
+
+}
+
+
+/* ~  */
+.grid3 {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto) 1fr;
+    place-items: start;
+    /* grid-template-rows: repeat(4, 200px); */
+    /* grid-auto-rows: 200px; */
+    /* align-items: center; */
+    /* place-items: center center; */
+    /* justify-items: end; */
+
+}
+
+.titulo3,
+.titulo4 {
+
+    grid-column: 1/-1;
+    
+}
+
+.foto3 {
+
+    grid-column: 1;
+    grid-row: 2 / 5;
+
+}
+
+.preco3 {
+
+    /* 
+        grid-column: 2;
+        grid-row: 2;
+        grid-area: 2/2; 
+        
+    */
+}
+
+/* ~ evitando posicionamento complexos */
+
+.grid4 {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); 
+
+}
+
+.titulos_sect {
+
+    font-size: 2.5em;
+    background: #2e2e2e;
+    color: #fff;
+    padding: 3px 5px;    
+    border-radius: 4px;
+    box-shadow: 3px 3px 6px #5e5e5e;
+
+}
+
+.info {
+
+    display: grid;
+    place-items: start;
+    place-self: start;
+    gap: 20px;
+
+}
+
+.titulos_sect > .arrow-right {
+
+    color: #84e;
+    font-size: 1em;
+
+}
+
+/* ~ ESTILOS GERAIS */
+body {
+
+    font-family: Arial;
+    margin: 40px;
+
+}
+
+img {
+
+    max-width: 100%;
+    border-radius: 4px;
+
+}
+
+h1, p {
+
+    margin: 0;
+
+}
+
+h1 {
+
+    font-size: 48px;
+    line-height: 1;
+
+}
+
+p, span {
+
+    font-size: 20px;
+
+}
+
+.comprar,
+.comprar2,
+.comprar3,
+.comprar4 {
+
+    background: #a8f;
+    color: #103;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+.preco, 
+.preco2,
+.preco3,
+.preco4 {
+
+    background: #dddddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+
+}

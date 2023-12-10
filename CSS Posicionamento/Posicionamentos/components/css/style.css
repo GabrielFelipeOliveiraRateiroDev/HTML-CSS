@@ -1,0 +1,41 @@
+body {
+
+    writing-mode: vertical-rl;
+
+}
+
+span {
+
+    display: inline-block;
+    background: #2e2e2e;
+    color: #fefefe;
+
+}
+
+span {
+
+    padding: 30px;
+    padding: 20px 40px;
+    padding: 40px 100px 200px 10px;
+
+    
+    margin: 30px;
+    margin: 20px 40px;
+    margin: 40px 100px 200px 10px;
+    border: 10px solid #84e;
+    border-width: 30px 60px;
+
+}
+
+
+.h1 {
+
+    margin-block-start: 30px;
+
+}
+
+.h1 {
+
+    display: block;
+
+}
