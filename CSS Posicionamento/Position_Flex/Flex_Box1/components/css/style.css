@@ -1,0 +1,102 @@
+body {
+
+    margin: 0px;
+    background: #1e1e1e;
+    color: #ffffff;
+    font-family: arial;
+
+}
+
+/* & Usando Flex */
+
+.flex {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* place-content: center; */
+    justify-content: center;
+    /* align-content: center; */
+    /* height: 100vh; */
+
+}
+
+h2 {
+
+    background: #e7e7e7;
+    border: #d7d7f7;
+    color: #2e2e2e;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    /* ! Atalho para as 3 propriedades abaixo */
+    /*flex: 1;*/ /* ~ Definindo o flex perdemos a possibilidade de justificar ou seja o (justify-content) não irá funcionar */
+    /* flex-grow: 1;
+    flex-basis: auto;
+    flex-shrink: 0; */
+    
+}
+
+h2:hover {
+
+    background-color: #84e;
+    color: #fefefe;
+
+}
+
+/* ^ Usando o Grid */
+
+.grid {
+
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+/* estilos gerais */
+
+.containers {
+
+    background: #3c3c3c;
+    height: 200px;
+    place-content: center;
+    /* place-items: center; */
+
+}
+
+.titulo {
+
+    margin-top: 70px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    /* background-color: #2d2d2d; */
+    text-align: center;
+
+}
+
+.titulo .arrow-right {
+
+    color: #84e;
+
+}
+
+
+::-webkit-scrollbar {
+
+    background-color: #ececec;
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    width: 3px;
+    border-radius: 50px;
+    background-color: #bbbbbb;
+
+}

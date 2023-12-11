@@ -1,0 +1,71 @@
+body, html {
+
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    background: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+
+    margin: 12px 0px 60px 0px;
+    text-align: center;
+
+
+}
+
+h2 {
+
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+    padding: 20px 300px 50px 20px;
+    margin: 125px 10px;
+
+}
+
+p {
+
+    background: #e7e7e7;
+    border: 1.5px solid #84e;
+    color: #2e2e2e;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0px;
+    border-radius: 4px;
+
+}
+
+span {
+
+    color: #84e;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    text-decoration: underline;    
+
+}
+
+.fixo {
+
+    position: fixed;
+    left: 40%;
+    bottom: 10px;
+
+}
+
+::-webkit-scrollbar {
+
+    background-color: #ececec;
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    width: 3px;
+    border-radius: 50px;
+    background-color: #bbbbbb;
+
+}
