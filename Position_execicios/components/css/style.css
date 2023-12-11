@@ -1,0 +1,184 @@
+:root {
+
+    /* ~ pallet colors */
+
+    /* --bg-color: #1e1e1e; */
+    --cinza: #f7f7f7;
+    --cinza-escuro: #c6c6c6;
+
+    --vermelho: #ee2211;
+
+    /* ^ type graphcs */
+
+    --font-size-paragrafos: 20px;
+    --vantagens-bikcraft-size: 64px;
+
+    --tamanho-principal: 1000px;
+
+}
+
+body {
+
+    background-color: var(--cinza);
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 60px;
+    justify-items: center;
+    margin: 0px;
+    margin-top: 60px;
+
+}
+
+p {
+    
+    font-size: 20px;
+    line-height: 1.3;
+    
+}
+
+p, h1, h2, h3 {
+
+    margin: 0px;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+img {
+
+    max-width: 100%;
+    display: block;
+
+}
+
+.menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.menu a {
+
+    background: #ffffff;
+    border-radius: 4px;
+    color: black;
+    padding: 15px 30px;
+    text-transform: uppercase;
+
+}
+
+.conteudo {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px; 
+
+}
+
+.introducao {
+
+    background: #ffffff;
+    text-align: right;
+    padding: 40px;
+    position: relative;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    gap: 20px;
+
+
+}
+
+.detalhe {
+
+    width: 60px;
+    height: 4px;
+    background: var(--vermelho);
+    position: absolute;
+    top: 30px;
+    right: -30px;
+
+}
+
+.botao {
+
+    padding: 15px 30px;
+    background: var(--vermelho);
+    color: #ffffff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+/* ======== */
+
+.subtitulo {
+
+    /* place-self: center end; */
+    padding: 40px;
+    font-size: 64px;
+    text-align: right;
+    align-self: center;
+    color: var(--cinza-escuro);
+    text-transform: uppercase;
+
+}
+
+.vantagens {
+
+    background: #ffffff;
+    padding: 40px;
+    display: grid;
+    place-items: center;
+
+}
+
+.vantagens-item {
+
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    
+}
+
+.vantagens-item p {
+
+    grid-column: 2;
+
+}
+
+.rodape {
+
+    background-color: #ffffff;
+    margin: 0px;
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;    
+
+} 
+
+::-webkit-scrollbar {
+
+    background-color: #fefefe;
+    width: 16px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #dcdcdc;
+    border-radius: 20px;
+    width: 2px;
+
+}
