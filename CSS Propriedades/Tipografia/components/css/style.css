@@ -1,0 +1,35 @@
+html, body {
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+
+}
+
+body {
+
+    background: #212121;
+    color: #a7a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+p {
+
+    padding: 10px 30px;
+    font-size: 2rem;
+    font-family: Georgia, "Times New Roman ", Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.3em;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-indent: 4.5rem;
+    text-align: left;
+    text-shadow: 3px 3px 2px gray;
+    letter-spacing: 0.5rem;
+
+}

@@ -1,0 +1,42 @@
+.bicicleta {
+
+    /* background: lightblue url("../../assets/img/bicicleta.jpg") no-repeat cover center top; */
+    background-image: url("../../assets/img/bicicleta.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 600px;    
+
+}
+
+h1 {
+
+    margin: auto;
+    background-color: #f8f8f8;
+
+}
+
+.pattern {
+
+    background: lightcoral;
+    background-image: url("../../assets/img/pattern.svg");
+    background-repeat: repeat;
+    /* background-size: 100px; */
+    height: 300px;
+
+}
+
+.linear {
+
+    background-image: linear-gradient(to right, lightblue 0%, lightcoral 10%, blue 20%, green 30%);
+    height: 200px;
+
+}
+
+.radial {
+
+    background-image: radial-gradient(circle,  blue, red, green);
+    height: 200px;
+
+}

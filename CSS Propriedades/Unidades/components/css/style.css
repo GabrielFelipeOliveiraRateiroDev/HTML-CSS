@@ -1,0 +1,68 @@
+.detalhes {
+
+  color: #84e;
+
+}
+
+.px {
+
+  font-size: 32px;
+
+}
+
+.em {
+
+  font-size: 2em;
+
+}
+
+.rem {
+
+  font-size: 2rem;
+
+}
+  
+html {
+
+  font-size: 150%;
+  background: #212121;
+  color: #f7f7f7;
+
+}
+  
+body {
+
+  font-family: Arial;
+  margin: 40px;
+
+}
+  
+p {
+
+  background: lightblue;
+  color: #121212;
+
+}
+  
+a {
+
+  text-decoration: none;
+  background: darkblue;
+  color: white;
+  display: inline-block;
+
+}
+
+::-webkit-scrollbar {
+
+  background: #212121;
+  width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+  background: lightblue;
+  border-radius: 20px;
+
+}

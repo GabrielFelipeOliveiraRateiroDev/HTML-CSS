@@ -1,0 +1,120 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+    color: #f7f7f7;
+
+}
+
+:root {
+
+    --color-text-paragrafos: #939393;
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem 0px;
+    overflow-x: hidden;
+
+}
+
+h1 {
+
+    margin: 0px 0px 1.5rem 0px;
+
+}
+
+.detalhe {
+
+    color: #84e;
+
+}
+
+header, main {
+
+    width: 100%;
+    padding: 60px 80px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+
+    margin-bottom: 10px;
+
+}
+
+header > h2::after {
+
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px; 
+    background: linear-gradient(to right,  #84e, #caf);
+    border-radius: 4px;
+
+}
+
+header ul li {
+
+    font-size: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+header ul li::before {
+
+    content: " ";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(to bottom, #84e, #caf, #212121);
+    border-radius: 50px;
+    /* border: 2px solid #caf; */
+    margin-right: 10px;
+
+}
+
+main p::first-line {
+
+    font-weight: bold;
+
+}
+
+main p::first-letter {
+
+    font-size: 2rem;
+
+}
+
+::-webkit-scrollbar {
+
+    background: #353535;
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: linear-gradient(to top, #84e, #caf);
+    border-radius: 20px;
+
+}
