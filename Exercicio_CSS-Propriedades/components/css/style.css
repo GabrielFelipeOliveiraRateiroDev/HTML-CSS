@@ -1,0 +1,245 @@
+:root {
+
+    /* ~ pallet colors */
+
+    /* --bg-color: #1e1e1e; */
+    --cinza: #f7f7f7;
+    --cinza-escuro: #c6c6c6;
+
+    --vermelho: #ee2211;
+    --vermelho-secundary: #900;
+
+    /* ^ type graphcs */
+
+    --font-size-paragrafos: 20px;
+    --vantagens-bikcraft-size: 64px;
+
+    --tamanho-principal: 1000px;
+
+}
+
+body {
+
+    background-color: var(--cinza);
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 60px;
+    justify-items: center;
+    margin: 0px;
+    margin-top: 60px;
+
+}
+
+p {
+    
+    font-size: 1.25rem;
+    line-height: 1.3;
+    
+}
+
+ul {
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+p, h1, h2, h3 {
+
+    margin: 0px;
+
+}
+
+a {
+
+    text-decoration: none;
+    display: block;
+
+}
+
+img {
+
+    max-width: 100%;
+    display: block;
+
+}
+
+.header {
+
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+
+}
+
+.menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.menu a {
+
+    background: #ffffff;
+    border-radius: 4px;
+    color: black;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.menu a:hover {
+
+    border: 2px solid var(--vermelho);
+
+}
+
+.conteudo {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px; 
+
+}
+
+.introducao {
+
+    background: #ffffff;
+    text-align: right;
+    padding: 2.5rem;
+    position: relative;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    gap: 20px;
+
+
+}
+
+.introducao h1 {
+
+    font-size: 2rem;
+
+}
+
+.introducao::before {
+
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: var(--vermelho);
+    position: absolute;
+    top: 30px;
+    right: -30px;
+
+
+}
+
+.botao {
+
+    padding: 1rem 2rem;
+    background: var(--vermelho);
+    color: #ffffff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+
+}
+
+.botao:hover {
+
+    background: var(--vermelho-secundary);
+
+}
+
+/* ======== */
+
+.subtitulo {
+
+    /* place-self: center end; */
+    padding: 2.5rem;
+    font-size: 4rem;
+    color: var(--cinza-escuro);
+    text-transform: uppercase;
+    text-align: right;
+    align-self: center;
+    background-image: url("../../assets/img/onda.svg");
+    /* background-size: cover;
+    background-position: center top;
+    background-repeat: repeat-y; */
+    
+
+}
+
+.vantagens {
+
+    background: #ffffff;
+    padding: 40px;
+    display: grid;
+    place-items: center;
+
+}
+
+.vantagens-item {
+
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.vantagens-item:nth-child(odd) {
+
+    background: var(--cinza);
+
+}
+
+.vantagens-item:hover {
+
+    border-left: 4px solid var(--vermelho);
+    cursor: default;
+
+}
+
+.vantagens-item p {
+
+    grid-column: 2;
+
+}
+
+.rodape {
+
+    background-color: #ffffff;
+    margin: 0px;
+    font-size: 1.25rem;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;    
+
+} 
+
+::-webkit-scrollbar {
+
+    background-color: #fefefe;
+    width: 16px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #dcdcdc;
+    border-radius: 20px;
+    width: 2px;
+
+}
